@@ -1,5 +1,6 @@
+//https://blog.luyencode.net/thuat-toan-tim-kiem-nhi-phan///
+
 #include <stdio.h>
- 
 int binarySearch(int arr[], int l, int r, int x) {
   if (r >= l) {
     int mid = l + (r - l) / 2; 
@@ -18,7 +19,7 @@ int main(void) {
   int x = 30;
   int result = binarySearch(arr, 0, n - 1, x);
   if (result == -1)
-    printf("%d Vi tri so %d", x, result);
+    printf("%d Khong ton tai  %d", x, result);
   else
     printf("%d Vi tri so %d", x, result);
   return 0;
